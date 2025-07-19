@@ -1,0 +1,41 @@
+Machine Learning (ML) is a branch of artificial intelligence (AI) that enables computers to learn from data and make decisions or predictions without being explicitly programmed.
+
+In simple terms:
+It’s a way for machines to learn from experience, just like humans do. Instead of coding every instruction manually, we give the machine lots of examples (data), and it finds patterns to make its own decisions.
+
+Key Concepts:
+Data: The raw material — examples, records, or observations.
+
+Model: The mathematical structure that makes predictions or decisions.
+
+Training: The process of feeding data into the model so it can learn.
+
+Prediction: The model uses what it learned to make decisions on new data.
+
+Types of Machine Learning:
+Supervised Learning:
+
+Data includes both input and correct output.
+
+Example: Predicting house prices from past sales data.
+
+Unsupervised Learning:
+
+Data includes only inputs, no labeled outputs.
+
+Example: Grouping customers by behavior (clustering).
+
+Reinforcement Learning:
+
+The model learns by trial and error through rewards and punishments.
+
+Example: Training a robot to walk or a computer to play chess.
+
+Real-life Examples:
+Spam email detection
+
+Netflix or YouTube recommendations
+
+Voice assistants (like Siri or Alexa)
+
+Self-driving cars
