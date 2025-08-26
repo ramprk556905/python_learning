@@ -10,12 +10,12 @@ from io import StringIO
 # print(np.shape(arr1))
 # print(np.reshape(arr1, (5, 1)))
 
-# arr = np.array([1,2,3,4,5,6,7])
+arr = np.array([1,2,3,4,5,6,7])
 # print(np.log(arr))
-# arr2d = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
-# # print("2D Array:\n", arr2d)
-# print(arr2d[1:,2:])
-# print(arr2d[0:2,2:])
+arr2d = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]])
+print( arr2d)
+print(arr2d[1:,2:])
+print(arr2d[0:2,2:])
 
 
 # mean = np.mean(arr)
@@ -80,13 +80,13 @@ from io import StringIO
 
 # Merging and Joining Dataframes
 # Create sample Dataframes
-df1 = pd.DataFrame({'Key':['A','B','C'], 'Value1':[1,2,3]})
-df2 = pd.DataFrame({'Key':['A','B','D'], 'Value2':[4,5,6]})
+# df1 = pd.DataFrame({'Key':['A','B','C'], 'Value1':[1,2,3]})
+# df2 = pd.DataFrame({'Key':['A','B','D'], 'Value2':[4,5,6]})
 
-print(df1)
-print(df2)
-print(pd.merge(df1,df2, on = "Key",how='inner'))
+# print(df1)
+# print(df2)
+# print(pd.merge(df1,df2, on = "Key",how='inner'))
 
 
-Data = '{"employee_name":"James","email": "james@gmail.com", "job_profile":[{"title1":"Team Lead","title2":"Sr.Developer"}]}'
-print(pd.read_json(StringIO(Data)))
+# Data = '{"employee_name":"James","email": "james@gmail.com", "job_profile":[{"title1":"Team Lead","title2":"Sr.Developer"}]}'
+# print(pd.read_json(StringIO(Data)))

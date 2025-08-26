@@ -7,6 +7,12 @@ name = "pypi"
 numpy = "*"
 pandas = "*"
 matplotlib = "*"
+seaborn = "*"
+beautifulsoup4 = "*"
+requests = "*"
+flask = "*"
+streamlit = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
